@@ -1,0 +1,26 @@
+
+#div1 {
+    width:100px;
+    height: 100px;
+    background: green;
+    }
+    #div2 {
+        width: 100px;
+        height: 100px;
+        background: red;
+        }
+    #div3 {
+            width: 100px;
+            height: 100px;
+            background: blue;
+            }
+    
+.flex-container > div {
+display: flex;
+background-color: whitesmoke;
+justify-content:flex-end;
+justify-items:center;
+flex-direction:column;
+width:100px;
+ margin: 10px;
+}
